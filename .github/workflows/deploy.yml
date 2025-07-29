@@ -1,0 +1,47 @@
+name: Deploy Shell Script
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Make script executable
+      run: chmod +x start_pero.sh
+      
+    - name: Validate shell script
+      run: |
+        bash -n start_pero.sh
+        echo "Shell script syntax is valid"
+        
+    - name: Test script execution
+      run: |
+        echo "Testing script execution..."
+        # Add any test commands here if needed
+        
+    - name: Deploy to GitHub Releases
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: v${{ github.run_number }}
+        name: Release v${{ github.run_number }}
+        body: |
+          Automated release of start_pero.sh script
+          
+          ## Changes
+          - Updated shell script deployment
+          
+        files: |
+          start_pero.sh
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
