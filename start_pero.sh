@@ -19,7 +19,14 @@ cd ..
 echo "🤖 Opening Android project..."
 open -a "Android Studio" .
 
+# Wait briefly before opening Xcode
+echo "⏳ Waiting for Android Studio to launch..."
+sleep 3
+
+# Open iOS project in Xcode
+echo "📱 Opening iOS project in Xcode..."
+open pero-ios/Pero.xcodeproj
+
 echo "✅ PeroPero setup complete!"
-echo "📋 Next steps:"
-echo "  - For iOS: open pero-ios/Pero.xcodeproj"
-echo "  - For Android: Android Studio should open automatically"
+echo "🎉 Both Android Studio and Xcode should now be opening automatically!"
+echo "📋 You're all set to start developing!"
