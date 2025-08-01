@@ -56,6 +56,3 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ```
 
 ---
-
-Let me know if you want to add badges (CI, downloads, license, etc.) or usage examples.
-****
