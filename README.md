@@ -1,5 +1,4 @@
-
-<img width="200" height="200" alt="Pero Logo" src="https://github.com/user-attachments/assets/cc30e46f-c126-4995-90ee-746262864160" />
+<img width="200" height="200" alt="Frame 5054" src="https://github.com/user-attachments/assets/10010108-83bd-4e43-8b21-a6661025693f" />
 
 # Pero
 
