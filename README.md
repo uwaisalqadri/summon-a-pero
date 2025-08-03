@@ -1,4 +1,4 @@
-<img width="200" height="200" alt="Frame 5054" src="https://github.com/user-attachments/assets/10010108-83bd-4e43-8b21-a6661025693f" />
+<img width="250" height="250" alt="Frame 5054" src="https://github.com/user-attachments/assets/10010108-83bd-4e43-8b21-a6661025693f" />
 
 # Pero
 
