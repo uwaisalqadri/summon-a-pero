@@ -1,8 +1,4 @@
-<img width="250" height="250" alt="Frame 5054" src="https://github.com/user-attachments/assets/10010108-83bd-4e43-8b21-a6661025693f" />
-
-# Pero
-
-**Pero** is a modern mobile app architecture inspired by Clean Architecture, Domain-Driven Design (DDD), and SOLID principles. Built to support maintainability, scalability, and testability in real-world applications.
+<img width="3240" height="3240" alt="Instagram post - 1" src="https://github.com/user-attachments/assets/3abba3f8-4a94-4468-89f8-6ad9ef7b6d9e" />
 
 ---
 
